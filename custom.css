@@ -1,0 +1,98 @@
+/*Fuentes externas*/
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Courgette&family=Playfair+Display:wght@500;700&family=Rubik&display=swap');
+
+/*Estilos globales*/
+*{
+    font-family: 'Roboto Slab', cursive;
+    color: #1c1c1c;
+}
+
+/*body*/
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Cabecera*/
+header{
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Pagina*/
+.formatPage{
+    max-width: 60%;
+    margin: 50px auto 100px;
+    background: #5485FF;
+    padding: 10px 40px 50px;
+    box-sizing: border-box;
+}
+
+/*Estilo para titulos*/
+h1{
+    font-size: 3em;
+    margin: 0px;
+    text-align: center;
+    color: #4D3E02;
+    text-shadow: 2px 2px 50px #4D3E02;
+}
+h2{
+    font-size: 1.5em;
+    font-family: 'Alkatra', cursive;
+    color: #1A1501;
+    text-align: center;
+    float: left;
+    padding-right: 25px;
+}
+
+h3{
+    margin: 25px 0px 0px -10px;
+    text-shadow: 1px 1px 1px black;
+    text-align: left;
+    text-decoration:underline wavy;
+}
+
+/*Elementos*/
+img{
+    float: right;
+    width: 250px;
+    border-radius:150px;
+}
+
+header > div{
+    margin: 25px 0px 0px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 95%;
+}
+
+hr{
+    background-color: #eee; 
+    height: 3px;
+    margin: 0;
+}
+
+table{
+    margin: 16px 0px;
+    width: 100%
+}
+
+tr{
+    height: 60px;
+}
+
+ol, li {
+    margin-left: -10px;
+}
